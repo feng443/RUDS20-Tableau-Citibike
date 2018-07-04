@@ -8,11 +8,7 @@ The raw data file is from [New York Citi Bike](https://en.wikipedia.org/wiki/Cit
 
 [CitiBike-Load-To-Redshift.ipynb](CitiBike-Load-To-Redshift.ipynb)
 
-One shotcut I took is I downloaded the file as the original URL depend on JavaScript to generate file list, which will need Chromdriver and Selinum to work. As I used my companies Redshift server I have to run this on Linux.
-
-So I download the content in an HTML file for one time load.
-
-The final result is a table with around 60 million records.
+The resulting data are stored in a single Redshift table citi_trips with around 60 million records, the Tableau visuzliatrion is conducted based on this table.
 
 ## Visualizations and Analysis
 
